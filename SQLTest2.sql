@@ -1,0 +1,1 @@
+SELECT SUM(invoice_value) FROM invoices WHERE MONTH(settlement_date) = 4;
